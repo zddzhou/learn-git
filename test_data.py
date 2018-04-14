@@ -5,10 +5,10 @@ try:
 except ImportError:
     from .mysql_db import DB
 
-# 定义过去时间
+# 定义过去时间###dfghjkdfghjkdfghjkfghjk
 past_time = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(time.time()-100000))
 
-# 定义将来时间
+# 定义将来时间#fghjklrtyuifghjk
 future_time = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime(time.time()+10000))
 
 
